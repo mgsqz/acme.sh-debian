@@ -17,7 +17,7 @@ Change the `$PROJECT` and `$BRANCH` variables in `debian/rules` to make sure you
 After you've adapted the package update the changelog with `dch` (which also determines the version number for this package)
 
 # Build
-
+apt-get install -y debhelper dh-virtualenv
 Build the package using `make debian` in the main directory.
 
 # Install
